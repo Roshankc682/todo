@@ -1,0 +1,114 @@
+/* App.css */
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 600px;
+  margin: 50px auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.input-container {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.input {
+  flex: 1;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-right: 10px;
+}
+
+.button {
+  background: linear-gradient(to right, #4CAF50, #45a049);
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.input:invalid {
+  border: 1px solid #dc3545;
+}
+
+.task-list {
+  list-style: none;
+  padding: 0;
+}
+
+.task {
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #f9f9f9;
+  border: 1px solid #eee;
+  border-radius: 4px;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.task span {
+  flex: 1;
+  text-decoration: none;
+  color: #333;
+}
+
+.checkbox {
+  margin-right: 10px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.action-buttons {
+  background-color: #007BFF;
+  color: #fff;
+  border: none;
+  padding: 8px;
+  font-size: 14px;
+  border-radius: 4px;
+  margin-left: 5px;
+  cursor: pointer;
+}
+
+.save-button {
+  background-color: #28a745;
+}
+
+.edit-input {
+  flex: 1;
+  padding: 8px;
+  font-size: 14px;
+  margin-right: 5px;
+}
+
+
+.delete-button {
+  background-color: #dc3545;
+}
+
+.checkbox {
+  margin-right: 10px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+
